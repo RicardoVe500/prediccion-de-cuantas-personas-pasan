@@ -58,5 +58,20 @@ port.on('data', function(data) {
     var cantidad2 = [Sensor1Tmp];
     console.log(cantidad1);
 
+
+    const Neurona = new brain.NeuralNetwork();
+
+      Neurona.train([
+        {input:{Sensor1Tmp}, output: {no_paso: 1}},
+        {input:{Sensor1Tmp}, output: {paso: 1}},
+      ]);
+
+
+
+
+
+
+
+
   }
 });
