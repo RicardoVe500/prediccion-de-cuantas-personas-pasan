@@ -1,0 +1,16 @@
+{
+  "name": "prersonas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "brainjs": "^0.7.4",
+    "nodejs": "0.0.0",
+    "serialport": "^6.2.0"
+  }
+}
